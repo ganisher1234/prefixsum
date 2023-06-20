@@ -30,11 +30,11 @@ def query(l, r) :
         r >>= 1
       
     return res; 
-if name == "__main__" : 
+
   
-    a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; 
-    n = len(a); 
-    build(a); 
-    print(query(1, 3)); 
-    updateTreeNode(2, 1); 
-    print(query(1, 3));
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]; 
+n = len(a); 
+build(a); 
+print(query(1, 3)); 
+updateTreeNode(2, 1); 
+print(query(1, 3));
