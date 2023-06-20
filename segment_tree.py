@@ -1,6 +1,3 @@
-import math
-
-
 N = 100000; 
 tree = [0] * (2 * N); 
 def build(arr) :
